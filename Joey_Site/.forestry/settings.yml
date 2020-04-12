@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: Joey_Site/content/english/blog
+  label: blog-en
+  create: all
+  match: "*"
+- type: directory
   path: Joey_Site/content/chinese/blog
   label: blog-ch
   create: all
