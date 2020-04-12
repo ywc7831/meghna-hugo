@@ -5,7 +5,19 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Post
+  label: Banner
+- type: heading
+  label: Biography
+- type: heading
+  label: Performance Introduction
+- type: heading
+  label: Experience
+- type: heading
+  label: Featured Photos
+- type: heading
+  label: Blog
+- type: heading
+  label: Contact
 - type: directory
   path: Joey_Site/content/chinese
   label: Chinese
@@ -16,8 +28,6 @@ sections:
   label: English
   create: all
   match: "**/*"
-- type: heading
-  label: DATA
 - type: directory
   path: Joey_Site/data/en
   label: DATA-en
