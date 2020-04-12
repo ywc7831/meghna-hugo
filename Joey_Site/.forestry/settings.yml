@@ -4,6 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: document
+  path: Joey_Site/config.toml
+  label: Config
+  match: "**/*"
 - type: heading
   label: Banner
 - type: document
@@ -65,21 +69,17 @@ sections:
 - type: document
   path: Joey_Site/data/ch/showtime.yml
   label: showtime-ch
-  match: "**/*"
 - type: document
   path: Joey_Site/data/en/showtime.yml
   label: showtime-en
-  match: "**/*"
 - type: heading
   label: Contact
 - type: document
   path: Joey_Site/data/ch/contact.yml
   label: contact-ch
-  match: "**/*"
 - type: document
   path: Joey_Site/data/en/contact.yml
   label: contact-en
-  match: "**/*"
 - type: heading
   label: Author
 - type: directory
@@ -97,11 +97,9 @@ sections:
 - type: document
   path: Joey_Site/i18n/ch.yaml
   label: Abbv. Name-ch
-  match: "**/*"
 - type: document
   path: Joey_Site/i18n/en.yaml
   label: Abbr. Name-en
-  match: "**/*"
 upload_dir: Joey_Site/static/images
 public_path: "/images"
 front_matter_path: ''
