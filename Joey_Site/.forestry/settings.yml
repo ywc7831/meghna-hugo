@@ -4,14 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: Joey_Site/data/en/experience.yml
-  label: experience-en
-  match: "**/*"
-- type: document
-  path: Joey_Site/data/ch/experience.yml
-  label: experience-ch
-  match: "**/*"
 - type: heading
   label: Banner
 - type: document
@@ -42,8 +34,24 @@ sections:
   match: "*"
 - type: heading
   label: Experience
+- type: document
+  path: Joey_Site/data/ch/experience.yml
+  label: experience-ch
+  match: "**/*"
+- type: document
+  path: Joey_Site/data/en/experience.yml
+  label: experience-en
+  match: "**/*"
 - type: heading
   label: Featured Photos
+- type: document
+  path: Joey_Site/data/ch/portfolio.yml
+  label: portfolio-ch
+  match: "**/*"
+- type: document
+  path: Joey_Site/data/en/portfolio.yml
+  label: portfolio-en
+  match: "**/*"
 - type: heading
   label: Blog
 - type: directory
