@@ -4,16 +4,14 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: Joey_Site/content/chinese/introduction
-  label: Performance-ch
-  create: all
-  match: "*"
-- type: directory
-  path: Joey_Site/content/english/introduction
-  label: Performance-en
-  create: all
-  match: "*"
+- type: document
+  path: Joey_Site/data/en/experience.yml
+  label: experience-en
+  match: "**/*"
+- type: document
+  path: Joey_Site/data/ch/experience.yml
+  label: experience-ch
+  match: "**/*"
 - type: heading
   label: Banner
 - type: document
@@ -32,6 +30,16 @@ sections:
   label: bio-en
 - type: heading
   label: Performance Introduction
+- type: directory
+  path: Joey_Site/content/chinese/introduction
+  label: Performance-ch
+  create: all
+  match: "*"
+- type: directory
+  path: Joey_Site/content/english/introduction
+  label: Performance-en
+  create: all
+  match: "*"
 - type: heading
   label: Experience
 - type: heading
