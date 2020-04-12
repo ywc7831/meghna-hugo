@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: Joey_Site/data/en
-  label: DATA-en
+  path: Joey_Site/data/ch
+  label: DATA-ch
   create: all
   match: "*"
 - type: directory
@@ -27,6 +27,11 @@ sections:
 - type: directory
   path: Joey_Site/data
   label: DATA
+  create: all
+  match: "*"
+- type: directory
+  path: Joey_Site/data/en
+  label: DATA-en
   create: all
   match: "*"
 upload_dir: Joey_Site/static/images
