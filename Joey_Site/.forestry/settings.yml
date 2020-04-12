@@ -8,7 +8,7 @@ sections:
   path: data
   label: DATA
   create: all
-  match: "**/*"
+  match: "*"
 - type: directory
   path: Joey_Site/content
   label: Pages
