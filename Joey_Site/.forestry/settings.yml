@@ -7,15 +7,21 @@ sections:
 - type: heading
   label: Banner
 - type: document
-  path: Joey_Site/data/en/banner.yml
-  label: banner-en
-  read_only: false
-- type: document
   path: Joey_Site/data/ch/banner.yml
   label: banner-ch
-  match: "**/*"
+- type: document
+  path: Joey_Site/data/en/banner.yml
+  label: banner-en
 - type: heading
   label: Biography
+- type: document
+  path: Joey_Site/data/ch/biography.yml
+  label: bio-ch
+  match: "**/*"
+- type: document
+  path: Joey_Site/data/en/biography.yml
+  label: bio-en
+  match: "**/*"
 - type: heading
   label: Performance Introduction
 - type: heading
