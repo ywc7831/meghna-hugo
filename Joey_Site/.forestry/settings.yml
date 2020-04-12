@@ -4,16 +4,10 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: Joey_Site/content/english/blog
-  label: blog-en
-  create: all
-  match: "*"
-- type: directory
-  path: Joey_Site/content/chinese/blog
-  label: blog-ch
-  create: all
-  match: "*"
+- type: document
+  path: Joey_Site/data/ch/banner.yml
+  label: banner-ch
+  match: "**/*"
 - type: heading
   label: Banner
 - type: heading
@@ -26,6 +20,16 @@ sections:
   label: Featured Photos
 - type: heading
   label: Blog
+- type: directory
+  path: Joey_Site/content/english/blog
+  label: blog-en
+  create: all
+  match: "*"
+- type: directory
+  path: Joey_Site/content/chinese/blog
+  label: blog-ch
+  create: all
+  match: "*"
 - type: heading
   label: Contact
 - type: directory
