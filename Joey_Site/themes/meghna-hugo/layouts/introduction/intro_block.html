@@ -1,0 +1,18 @@
+<article class="col-lg-12 col-md-12 col-12 clearfix wow fadeInUp mb-4" data-wow-duration="500ms">
+  <div class="post-block-2">
+    <div class="media-wrapper">
+    </br>
+      <center>
+      <img class="img-fluid lozad" src="/{{ .Params.Image | absURL }}">
+      </center>
+    </div>
+
+    <div class="content">
+       <center>
+      <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+      <p>{{ .Summary }}</p>
+      <a class="btn btn-transparent" href="{{ .Permalink }}">{{ i18n "readMore" }}</a>
+      </center>
+    </div>
+  </div>
+</article>
