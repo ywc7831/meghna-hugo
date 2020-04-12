@@ -4,12 +4,16 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: heading
+  label: Banner
+- type: document
+  path: Joey_Site/data/en/banner.yml
+  label: banner-en
+  read_only: false
 - type: document
   path: Joey_Site/data/ch/banner.yml
   label: banner-ch
   match: "**/*"
-- type: heading
-  label: Banner
 - type: heading
   label: Biography
 - type: heading
