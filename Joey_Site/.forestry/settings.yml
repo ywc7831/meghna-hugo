@@ -5,6 +5,11 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
+  path: Joey_Site/content/chinese/introduction
+  label: Performance-ch
+  create: all
+  match: "*"
+- type: directory
   path: Joey_Site/content/english/introduction
   label: Performance-en
   create: all
