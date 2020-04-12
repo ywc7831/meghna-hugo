@@ -4,11 +4,8 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: directory
-  path: Joey_Site/content
-  label: Pages
-  create: all
-  match: "*"
+- type: heading
+  label: Post
 - type: directory
   path: Joey_Site/content/chinese
   label: Chinese
@@ -19,11 +16,8 @@ sections:
   label: English
   create: all
   match: "**/*"
-- type: directory
-  path: Joey_Site/data
+- type: heading
   label: DATA
-  create: all
-  match: "*"
 - type: directory
   path: Joey_Site/data/en
   label: DATA-en
