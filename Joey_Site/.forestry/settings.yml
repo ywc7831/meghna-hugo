@@ -21,7 +21,7 @@ sections:
   path: Joey_Site/data/en/biography.yml
   label: bio-en
 - type: heading
-  label: Performance Introduction
+  label: Perf. Intro
 - type: directory
   path: Joey_Site/content/chinese/introduction
   label: Performance-ch
@@ -37,21 +37,17 @@ sections:
 - type: document
   path: Joey_Site/data/ch/experience.yml
   label: experience-ch
-  match: "**/*"
 - type: document
   path: Joey_Site/data/en/experience.yml
   label: experience-en
-  match: "**/*"
 - type: heading
   label: Featured Photos
 - type: document
   path: Joey_Site/data/ch/portfolio.yml
   label: portfolio-ch
-  match: "**/*"
 - type: document
   path: Joey_Site/data/en/portfolio.yml
   label: portfolio-en
-  match: "**/*"
 - type: heading
   label: Blog
 - type: directory
@@ -65,27 +61,47 @@ sections:
   create: all
   match: "*"
 - type: heading
+  label: Perf. Info
+- type: document
+  path: Joey_Site/data/ch/showtime.yml
+  label: showtime-ch
+  match: "**/*"
+- type: document
+  path: Joey_Site/data/en/showtime.yml
+  label: showtime-en
+  match: "**/*"
+- type: heading
   label: Contact
-- type: directory
-  path: Joey_Site/content/chinese
-  label: Chinese
-  create: all
+- type: document
+  path: Joey_Site/data/ch/contact.yml
+  label: contact-ch
   match: "**/*"
-- type: directory
-  path: Joey_Site/content/english
-  label: English
-  create: all
+- type: document
+  path: Joey_Site/data/en/contact.yml
+  label: contact-en
   match: "**/*"
+- type: heading
+  label: Author
 - type: directory
-  path: Joey_Site/data/en
-  label: DATA-en
+  path: Joey_Site/content/chinese/author
+  label: author-ch
   create: all
   match: "*"
 - type: directory
-  path: Joey_Site/data/ch
-  label: DATA-ch
+  path: Joey_Site/content/english/author
+  label: author-en
   create: all
   match: "*"
+- type: heading
+  label: Other
+- type: document
+  path: Joey_Site/i18n/ch.yaml
+  label: Abbv. Name-ch
+  match: "**/*"
+- type: document
+  path: Joey_Site/i18n/en.yaml
+  label: Abbr. Name-en
+  match: "**/*"
 upload_dir: Joey_Site/static/images
 public_path: "/images"
 front_matter_path: ''
