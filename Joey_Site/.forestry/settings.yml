@@ -16,6 +16,16 @@ sections:
   label: Featured Photos
 - type: heading
   label: Blog
+- type: directory
+  path: Joey_Site/content/english
+  label: blog-en
+  create: all
+  match: "**/*"
+- type: directory
+  path: Joey_Site/content/chinese
+  label: blog-ch
+  create: all
+  match: "**/*"
 - type: heading
   label: Contact
 - type: directory
