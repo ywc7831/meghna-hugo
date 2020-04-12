@@ -1,0 +1,17 @@
+############################# biography ###################################
+biography:
+  enable : true
+  image : images/intro.jpg
+  image_webp : images/intro.jpg
+  title : Hi, I'm Joey.
+  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
+  biography_item : 
+      # biography item loop
+    - title : SEO Optimized
+      icon : ti-world # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+      
+      # biography item loop
+    - title : Easy Customization
+      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
+      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe

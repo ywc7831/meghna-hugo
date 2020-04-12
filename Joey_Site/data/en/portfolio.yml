@@ -1,0 +1,92 @@
+#################################### portfolio ###############################
+portfolio:
+  enable : true
+  title : Featured Photos
+  button:
+    enable : true
+    label : More
+  photo_item :
+    # portfolio item loop
+    - name : Tag Taipei
+      image : images/portfolio/portfolio-1.jpg
+      image_webp : images/portfolio/portfolio-1.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "https://themefisher.com"
+      
+    # portfolio item loop
+    - name : Sound system
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : ""
+      
+    # portfolio item loop
+    - name : Clock Product
+      image : images/portfolio/portfolio-3.jpg
+      image_webp : images/portfolio/portfolio-3.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
+      
+    # portfolio item loop
+    - name : Bottol Label
+      image : images/portfolio/portfolio-4.jpg
+      image_webp : images/portfolio/portfolio-4.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
+      
+    # portfolio item loop
+    - name : Shopping Bag
+      image : images/portfolio/portfolio-5.jpg
+      image_webp : images/portfolio/portfolio-5.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
+      
+    # portfolio item loop
+    - name : Tag Taipei
+      image : images/portfolio/portfolio-6.jpg
+      image_webp : images/portfolio/portfolio-6.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
+      
+    # portfolio item loop
+    - name : Business Card
+      image : images/portfolio/portfolio-7.jpg
+      image_webp : images/portfolio/portfolio-7.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
+      
+    # portfolio item loop
+    - name : Stationary Taipei
+      image : images/portfolio/portfolio-8.jpg
+      image_webp : images/portfolio/portfolio-8.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
+      
+    # portfolio item loop
+    - name : Tag Taipei
+      image : images/portfolio/portfolio-2.jpg
+      image_webp : images/portfolio/portfolio-2.webp
+      categories : ["Photos"]
+      content : Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, nemo!
+      link : "#"
+  
+  youtube_item :
+    # portfolio item loop
+    - name : Joey's Lab Street Show
+      Serial_number : rjQ-Q2Opuac
+      categories : ["Videos"]
+      content : It has been 2 years since I started to perfrom on the street. I always want to make a video about my show. Now finally here it is!
+
+    # portfolio item loop
+    - name : Joey's Lab Chem&Love
+      Serial_number : MQF-kANeuKw
+      categories : ["Videos"]
+      content : This show "Chem&Love" was developed in the winter of 2017, and it came to the final version in the spring of 2019.

@@ -1,0 +1,30 @@
+############################# experience ##############################
+experience:
+  enable : true
+  title : My Experience
+  more_link : "#blog"
+  
+  experience_item :
+    - date : "2020-04-20"
+      title : "Performance in Cat Festival"
+      link : "https://www.google.com" 
+      summary : "First performance 1000 audience"
+      truncated:
+        enable : false
+        link : "https://www.google.com"
+    
+    - date : "2020-03-19"
+      title : "Performance at Taichung"
+      link : "https://www.google.com" 
+      summary : "First performance at Taichung"
+      truncated:
+        enable : false
+        link : "https://www.google.com"
+
+    - date : "2019-02 ~ 2019-05"
+      title : "Military Service"
+      link : "https://www.google.com" 
+      summary : "OMG"
+      truncated:
+        enable : false
+        link : "https://www.google.com"

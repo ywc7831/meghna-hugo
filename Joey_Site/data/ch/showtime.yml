@@ -1,0 +1,20 @@
+############################# About ###################################
+showtime:
+  enable : true
+  title : 演出資訊
+  
+  showtime_item :
+  - title : 貓咪嘉年華
+    image : images/showtime/cat_festival.jpg
+    time : 2020/04/20
+    location : Huashan
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    website : https://www.google.com
+
+  - title : 阿柴嘉年華
+    image : images/showtime/shibainu.jpg
+    time : 2020/04/12
+    location : Taichung
+    content : Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, nihil, libero, perspiciatis eos provident laborum eum dignissimos.
+    website : https://www.google.com
+

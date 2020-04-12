@@ -1,0 +1,9 @@
+############################# introduction ##############################
+introduction:
+  enable : true
+  bg_image : "images/backgrounds/bg-white-wall.jpg"
+  bg_image_webp : "images/backgrounds/bg-white-wall.webp"
+  title : "表演介紹"
+  button:
+    enable : true
+    label : "更多表演"

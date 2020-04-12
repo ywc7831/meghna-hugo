@@ -1,0 +1,18 @@
+- id: blogTitle
+  translation: 最新文章
+- id: readMore
+  translation: 更多
+- id: viewAllPost
+  translation: 查看所有
+- id: share
+  translation: 分享
+- id: aboutAuthor
+  translation: 關於作者
+- id: authorsPosts
+  translation: 作者文章
+- id: submit
+  translation: 送出
+- id: all
+  translation: All
+- id: copyright
+  translation: Copyright &copy; 2020 何政逸 保留一切權利

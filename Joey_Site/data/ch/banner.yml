@@ -1,0 +1,12 @@
+############################### Banner ################################
+banner:
+  enable : true
+  bg_image_webp : "images/backgrounds/hero-area.webp"
+  bg_image : "images/backgrounds/hero-area.jpg"
+  icon : "" # themify icon pack : https://themify.me/themify-icons
+  title : "踏入 91 實驗室"
+  content : "開始之前，請準備好您的護目鏡與實驗衣，並請穿著長褲與包腳鞋以確保您的安全。"
+  button:
+    enable : true
+    label : "開始探索"
+    link : "#feature"
