@@ -4,6 +4,11 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
+- type: directory
+  path: Joey_Site/content/english/introduction
+  label: Performance-en
+  create: all
+  match: "*"
 - type: heading
   label: Banner
 - type: document
@@ -17,11 +22,9 @@ sections:
 - type: document
   path: Joey_Site/data/ch/biography.yml
   label: bio-ch
-  match: "**/*"
 - type: document
   path: Joey_Site/data/en/biography.yml
   label: bio-en
-  match: "**/*"
 - type: heading
   label: Performance Introduction
 - type: heading
