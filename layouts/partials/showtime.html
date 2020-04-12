@@ -1,0 +1,46 @@
+{{ $data := index .Site.Data .Site.Language.Lang }}
+
+{{ if $data.showtime.showtime.enable }}
+{{ with $data.showtime.showtime }}
+{{"<!-- Start Showtime Section -->" | safeHTML}}
+<section class="bg-one showtime section" id="showtime">
+	<div class="container">
+		<div class="row justify-content-center">
+			<div class="col-lg-12">
+				{{"<!-- section title -->" | safeHTML}}
+				<div class="title text-center wow fadeIn" data-wow-duration="1500ms">
+					<h2> {{ with .title }} {{ index (split . " ") 0 }} {{ end }}<span class="color">
+							{{ with .title }} {{ index (split . " ") 1 }} {{ end }} </span></h2>
+					<div class="border-meghna"></div>
+				</div>
+			</div>
+			{{"<!-- /section title -->" | safeHTML}}
+
+			{{ range first 2 .showtime_item }}
+			{{"<!-- Showtime item -->" | safeHTML}}
+			<div class="col-lg-6 text-center wow fadeInUp" data-wow-duration="500ms">
+				<div class="block">
+					<div class="col-lg-12 text-center padding-2 text-center" >
+						<!-- this image is for trigger this section fallback background image -->
+						<a href={{ .website }} target="_blank"><img src="/{{ .image | absURL }}" width=100%/></a>
+					</div>
+
+					{{"<!-- Express Showtime Yourself -->" | safeHTML}}
+					<div class="content">
+						<a href={{ .website }} target="_blank"><h3>{{ .title }}</h3></a>
+
+						<h5><i class="ti-time"></i>&ensp;&ensp;{{ .time }}&ensp;&ensp;&ensp;&ensp;
+							<i class="ti-location-pin"></i>&ensp;&ensp;{{ .location }}</h5>
+						<p>{{ .content | markdownify }}</p>
+					</div>
+				</div>
+			</div>
+			{{ end }}
+		</div>
+		<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=2&amp;bgcolor=%23ffffd4&amp;ctz=Asia%2FTaipei&amp;src=bWtyamU2amN0ZnQxcXFmOHI0YXM1bDlubWtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;color=%23E67C73" style="border:solid 1px transparent" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+	
+</section>
+{{"<!-- /showtime -->" | safeHTML}}
+{{ end }}
+{{ end }}
