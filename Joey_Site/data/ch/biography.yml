@@ -2,7 +2,7 @@
 biography:
   enable: true
   image: images/Stage_ball.png
-  image_webp: images/intro.jpg
+  image_webp: images/Stage_ball.png
   title: Hi, 我是Joey.
   content: 我是一位街頭藝人...
   biography_item:
