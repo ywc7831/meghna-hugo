@@ -1,17 +1,16 @@
-############################# biography ###################################
+---
 biography:
-  enable : true
-  image : images/intro.jpg
-  image_webp : images/intro.jpg
-  title : Hi, 我是Joey.
-  content : "我是一位街頭藝人..."
-  biography_item : 
-      # biography item loop
-    - title : 街頭藝人協會理事 (2020)
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # biography item loop
-    - title : 研發工程師
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  enable: true
+  image: images/Stage_ball.png
+  image_webp: images/intro.jpg
+  title: Hi, 我是Joey.
+  content: 我是一位街頭藝人...
+  biography_item:
+  - title: 街頭藝人協會理事 (2020)
+    icon: ti-world
+    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
+      dolores repellendus eos saepe
+  - title: 研發工程師
+    icon: ti-panel
+    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
+      dolores repellendus eos saepe
