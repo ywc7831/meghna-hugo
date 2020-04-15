@@ -3,8 +3,8 @@ biography:
   enable: true
   image: images/Stage_ball.png
   image_webp: images/Stage_ball.png
-  title: Hi, 我是Joey.
-  content: 我是一位街頭藝人...
+  title: 你好！我是 91
+  content: 你也可以叫我 Joey，我是一名表演者，於舞台與街頭演出，除此之外我也為臺灣街頭藝術文化發展協會工作，推廣台灣的街頭藝術
   biography_item:
   - title: 街頭藝人協會理事 (2020)
     icon: ti-reddit
