@@ -6,11 +6,10 @@ biography:
   title: 你好！我是 91
   content: 你也可以叫我 Joey，我是一名表演者，於舞台與街頭演出，除此之外我也為臺灣街頭藝術文化發展協會工作，推廣台灣的街頭藝術
   biography_item:
+  - title: 街頭藝人 (2017 - )
+    icon: ti-palette
+    content: 大學時期進入雜耍社之後，便深深地被雜耍所吸引，也開始學習如何表演；研究所時更因主動參與街頭藝人事務，發現街頭表演的有趣之處，因而一頭栽進了這個領域之中，目前主要於台北市、台中市演出
   - title: Str.ACD 街頭藝人協會理事 (2018 - )
     icon: ti-user
     content: Str.ACD (http://stracd.org) 為一個街頭藝人自主發起的組織，目的是推廣街頭藝術、保障街頭藝人的權益，而我自 2018
       年起擔任此協會的其中一位理事，主要負責媒體行銷宣傳、海外事務接洽、專案執行
-  - title: 研發工程師
-    icon: ti-panel
-    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
-      dolores repellendus eos saepe
