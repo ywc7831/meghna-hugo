@@ -1,17 +1,18 @@
-############################# biography ###################################
+---
 biography:
-  enable : true
-  image : images/intro.jpg
-  image_webp : images/intro.jpg
-  title : Hi, I'm Joey.
-  content : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam tempora itaque, autem dolores culpa cum mollitia voluptate nesciunt voluptatibus quasi."
-  biography_item : 
-      # biography item loop
-    - title : SEO Optimized
-      icon : ti-world # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
-      
-      # biography item loop
-    - title : Easy Customization
-      icon : ti-panel # themify icon pack : https://themify.me/themify-icons
-      content : Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur dolores repellendus eos saepe
+  enable: true
+  image: images/intro.jpg
+  image_webp: images/intro.jpg
+  title: Hello there, I'm 91! You can also call me Joey
+  content: I am a performer doing juggling and clowning, both on stage and streets.
+    Besides, I am also one of a directors of Taiwan Street Arts and Culture Development
+    Association (Str.ACD), working as a backer of street artists.
+  biography_item:
+  - title: SEO Optimized
+    icon: ti-world
+    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
+      dolores repellendus eos saepe
+  - title: Easy Customization
+    icon: ti-panel
+    content: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus consectetur
+      dolores repellendus eos saepe
