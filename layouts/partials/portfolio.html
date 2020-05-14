@@ -18,8 +18,8 @@
 		</div>
 		<div class="row shuffle-wrapper justify-content-center">
 			{{"<!-- photo item -->" | safeHTML}}
-			{{ range first 4 .photo_item }}
-			<div class="col-lg-6 shuffle-item">
+			{{ range first 6 .photo_item }}
+			<div class="col-lg-4 shuffle-item">
 				<div class="portfolio-block mb-4">
 					<img class="img-fluid" src="/{{ .image | absURL }}" alt="{{ .name }}">
 					<div class="caption">
