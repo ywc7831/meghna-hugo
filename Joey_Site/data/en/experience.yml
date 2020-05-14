@@ -9,6 +9,8 @@ experience:
       title : "Performance in Cat Festival"
       link : "https://www.google.com" 
       summary : "First performance 1000 audience"
+      image : "images/cat_festival.jpg"
+      image_webp : 
       truncated:
         enable : false
         link : "https://www.google.com"
@@ -17,6 +19,8 @@ experience:
       title : "Performance at Taichung"
       link : "https://www.google.com" 
       summary : "First performance at Taichung"
+      image : "images/shibainu.jpg"
+      image_webp : 
       truncated:
         enable : false
         link : "https://www.google.com"
@@ -25,6 +29,8 @@ experience:
       title : "Military Service"
       link : "https://www.google.com" 
       summary : "OMG"
+      image : "images/cat_festival.jpg"
+      image_webp : 
       truncated:
         enable : false
         link : "https://www.google.com"

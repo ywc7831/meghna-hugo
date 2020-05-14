@@ -1,0 +1,33 @@
+############################# biography ###################################
+navigation:
+  enable : true
+  home : Home
+  home_site : en
+  menu : 
+    - name : About Me
+      URL : biography
+      weight : 10
+      
+    - name : Introduction
+      URL : introduction
+      weight : 20
+
+    - name : Experience
+      URL : experience
+      weight : 30
+
+    - name : Portfolio
+      URL : portfolio
+      weight : 40
+
+    - name : Blog
+      URL : blog
+      weight : 50
+
+    - name : Calendar
+      URL : showtime
+      weight : 60
+
+    - name : Contact
+      URL : contact
+      weight : 70
