@@ -1,0 +1,33 @@
+############################# biography ###################################
+navigation:
+  enable : true
+  home : 首頁
+  home_site : ch
+  menu : 
+    - name : 關於我
+      URL : biography
+      weight : 10
+      
+    - name : 表演簡介
+      URL : introduction
+      weight : 20
+
+    - name : 里程碑
+      URL : experience
+      weight : 30
+
+    - name : 影音錦輯
+      URL : portfolio
+      weight : 40
+
+    - name : 部落格
+      URL : blog
+      weight : 50
+
+    - name : 行事曆
+      URL : showtime
+      weight : 60
+
+    - name : 聯絡我
+      URL : contact
+      weight : 70

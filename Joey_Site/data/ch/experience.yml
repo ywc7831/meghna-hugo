@@ -9,6 +9,8 @@ experience:
       title : "於貓咪嘉年華演出"
       link : "https://www.google.com" 
       summary : "First performance 1000 audience"
+      image : "images/cat_festival.jpg"
+      image_webp : 
       truncated:
         enable : false
         link : "https://www.google.com"
@@ -17,6 +19,8 @@ experience:
       title : "於台中嘉年華演出"
       link : "https://www.google.com" 
       summary : "First performance at Taichung"
+      image : "images/shibainu.jpg"
+      image_webp : 
       truncated:
         enable : false
         link : "https://www.google.com"
@@ -25,6 +29,8 @@ experience:
       title : "悲情替代役"
       link : "https://www.google.com" 
       summary : "OMG"
+      image : "images/cat_festival.jpg"
+      image_webp : 
       truncated:
         enable : false
         link : "https://www.google.com"
