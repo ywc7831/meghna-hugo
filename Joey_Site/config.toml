@@ -81,7 +81,7 @@ weight = 70
 logo = "images/logo.png"
 # Meta data
 description = "Responsive Multipurpose Parallax HTML5 Template"
-author = "Themefisher"
+author = ""
 # Google Analitycs
 google_analitycs_id = "" # Your ID
 # post share
@@ -113,18 +113,18 @@ link = "https://www.instagram.com/91joeylab"
 icon = "ti-youtube" # themify icon pack : https://themify.me/themify-icons
 link = "https://www.youtube.com/channel/UC7anlFZ_LOlcHsWOjGp7DGw"
 
-################################ English Language ########################
-[Languages.en]
-languageName = "En"
-languageCode = "en-us"
-contentDir = "content/english"
-weight = 1
-home = "Home"
-
 ################################ France Language ########################
 [Languages.ch]
 languageName = "繁中"
 languageCode = "zh-tw"
 contentDir = "content/chinese"
+weight = 1
+home = "Home"
+
+################################ English Language ########################
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+contentDir = "content/english"
 weight = 2
 home = "Home"
