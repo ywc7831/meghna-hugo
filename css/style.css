@@ -1076,12 +1076,17 @@ a:hover {
 .tl-node {
   padding-left: 0%;
   padding-right: 0%;
-  margin-bottom: 1em;
+  margin-bottom: 0em;
+  margin-right: 0em;
   position: relative; 
   align-items: left;
-  top: 0.5em;
+  vertical-align: center;
   background: #FFFFD4;
   width:66.7%;
+  background-size: auto 200px;
+  background-position: right center;
+  background-repeat: no-repeat; 
+  min-height: 200px;
   }
   .tl-node a {
     display: block; 
@@ -1100,14 +1105,23 @@ a:hover {
     color: #2B4162; 
     }
   .tl-node p{
-    font-size: 1.2em;
+    font-size: 1em;
     color: #666;
   }
+  .tl-left {
+    position: relative;
+    transform:translateY(50%);
+    align-items: left center;
+    justify-content: left center;
+  }
+  /* Timestamp */
+  .tl-stamp {
+    font-size: 1.1em;
+    color: #111; 
+    vertical-align: center;
+    padding-bottom: 0.5em;
+  }
 
-/* Timestamp */
-.tl-stamp {
-  font-size: 1.6em;
-  color: #111; }
 
 
 div.read-more-link {
