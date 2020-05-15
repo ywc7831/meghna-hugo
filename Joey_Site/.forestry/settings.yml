@@ -12,11 +12,9 @@ sections:
 - type: document
   path: Joey_Site/data/ch/navigation.yml
   label: nav bar-ch
-  match: "**/*"
 - type: document
   path: Joey_Site/data/en/navigation.yml
   label: nav bar-en
-  match: "**/*"
 - type: heading
   label: Banner
 - type: document
