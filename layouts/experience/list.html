@@ -19,21 +19,25 @@
       </div>
       {{ range .experience_item }}
       <div class="experience">
-        <div class="tl-node col-lg-12">
-          <div class="tl-stamp">
-            <a>{{ .date }}</a>
-          </div>
-          <div class="tl-content">
-            <h3><a href="{{ .link }}">{{ .title }}</a></h3>
-          </div>
-          <p>{{ .summary }}</p>
-          {{ if .truncated.enable }}
-            <div class="read-more-link">
-            <a href="{{ .truncated.link }}">...Read More...</a>
+        <div class="tl-node" style='background-image: url("/{{ .image | absURL }}")'>
+          <img style="display: none;" onerror="this.onerror=null;this.parentElement.style.backgroundImage= 'url(/{{ .image | absURL }})'" src="/{{ .image | absURL }}" />
+
+          <div class="col-lg-6 tl-left">
+            <div class="tl-stamp">
+              <a>{{ .date }}</a>
+            
+            <div class="tl-content">
+              <h4><a href="{{ .link }}">{{ .title }}</a></h4>
+              <p>{{ .summary }}</p>
             </div>
-          {{ end }}
+            </div>
+            {{ if .truncated.enable }}
+              <div class="read-more-link">
+              <a href="{{ .truncated.link }}">...Read More...</a>
+              </div>
+            {{ end }}
+          </div>
         </div>
-        
       </div>
       {{ end }}
       <div class="experience-tail">
