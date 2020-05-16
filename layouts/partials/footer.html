@@ -6,16 +6,14 @@
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
-						{{ range .Site.Params.social }}
-						<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>
-						{{ end }}
+						{{ range .Site.Params.social }}<li class="list-inline-item"><a href="{{ .link | safeURL }}"><i class="{{ .icon }}"></i></a></li>{{ end }}
 					</ul>
 				</div>
 
 			</div>
 			<div class="col-4">
 				<div class="copyright text-center">
-					<a href="{{ .Site.BaseURL | absLangURL }}">
+					<a href="{{ .Site.BaseURL }}">
 						<img src="/{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />
 					</a>
 				</div>
