@@ -72,7 +72,8 @@ portfolio:
   youtube_item:
   - name: DOG
     Serial_number: 1CpnIJ3q8Y8
-    categories: ''
+    categories:
+    - Videos
     content: DOG
   - name: Joey's Lab Street Show
     Serial_number: rjQ-Q2Opuac
