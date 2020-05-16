@@ -10,8 +10,11 @@
 	<meta name="author" content="{{ . }}">{{ end }}
 	{{ hugo.Generator }}
 
-	
+
 	{{ "<!-- plugins -->" | safeHTML }}
+
+	{{ "<!-- Prvent Adguard-->" | safeHTML }}
+	
 	{{ range .Site.Params.plugins.css }}
 	<link rel="stylesheet" href="/{{ .link | absURL }} ">
 	{{ end }}
