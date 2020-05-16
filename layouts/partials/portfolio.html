@@ -54,7 +54,8 @@
 		<div class="col-lg-12 text-center portfolio-more">
 			{{ if .button.enable }}
 				{{ with .button }}
-				<a href="{{ `portfolio` | absLangURL }}" class="btn btn-main page-scroll">{{ .label }}</a>
+				<a href="{{ `portfolio` }}" class="btn btn-main page-scroll">{{ .label }}</a>
+				<!-- <a href="{{ `portfolio` | absLangURL }}" class="btn btn-main page-scroll">{{ .label }}</a> -->
 				{{ end }}
 			{{ end }}
 		</div>

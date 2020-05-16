@@ -2,8 +2,7 @@
 <footer id="footer" class="bg-one">
 	<div class="container">
 		<div class="row wow fadeInUp" data-wow-duration="500ms">
-			<div class="col-lg-4 col-xl-4">
-
+			<div class="col-4">
 				{{"<!-- Footer Social Links -->" | safeHTML}}
 				<div class="social-icon">
 					<ul class="list-inline">
@@ -13,16 +12,15 @@
 					</ul>
 				</div>
 
-				
 			</div>
-			<div class="col-lg-4 col-xl-4">
+			<div class="col-4">
 				<div class="copyright text-center">
 					<a href="{{ .Site.BaseURL | absLangURL }}">
 						<img src="/{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />
 					</a>
 				</div>
 			</div>
-			<div class="col-lg-4 col-xl-4">
+			<div class="col-4">
 				{{"<!-- copyright -->" | safeHTML}}
 				<div class="copyright text-center">
 					<p>{{ i18n "copyright" | markdownify }}</p>

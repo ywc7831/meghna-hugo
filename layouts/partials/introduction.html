@@ -24,7 +24,8 @@
 			<div class="col-lg-12 text-center">
 				{{ if .button.enable }}
 					{{ with .button }}
-					<a href="{{ `introduction` | absLangURL }}" class="btn btn-main page-scroll">{{ .label }}</a>
+					<a href="{{ `introduction` }}" class="btn btn-main page-scroll">{{ .label }}</a>
+					<!-- <a href="{{ `introduction` | absLangURL }}" class="btn btn-main page-scroll">{{ .label }}</a> -->
 					{{ end }}
 				{{ end }}
 			</div>
